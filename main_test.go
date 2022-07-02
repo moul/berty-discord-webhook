@@ -9,7 +9,7 @@ import (
 )
 
 func TestRun(t *testing.T) {
-	err := run([]string{"-h"})
+	err := mainRun([]string{"-h"})
 	if !errors.Is(err, flag.ErrHelp) {
 		t.Fatalf("err should be flag.ErrHelp, got %v", err)
 	}
