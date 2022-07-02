@@ -22,14 +22,17 @@
 
 [embedmd]:# (.tmp/usage.txt console)
 ```console
-foo@bar:~$ berty-discord-webhook
- _               _                  _  _                       _                    _     _               _
-| |__  ___  _ _ | |_  _  _  ___  __| |(_) ___ __  ___  _ _  __| | ___ __ __ __ ___ | |__ | |_   ___  ___ | |__
-| '_ \/ -_)| '_||  _|| || ||___|/ _` || |(_-</ _|/ _ \| '_|/ _` ||___|\ V  V // -_)| '_ \| ' \ / _ \/ _ \| / /
-|_.__/\___||_|   \__| \_, |     \__,_||_|/__/\__|\___/|_|  \__,_|      \_/\_/ \___||_.__/|_||_|\___/\___/|_\_\
-                      |__/
-12 CPUs, /home/moul/.local/bin/berty-discord-webhook, fwrz.m.42.am, go1.16.7
-[]
+foo@bar:~$ berty-discord-webhook -h
+USAGE
+  berty-discord-webhook [global flags] <subcommand> [flags] [args]
+
+FLAGS
+  -berty-announces false    Announce debugging events on Berty
+  -berty-group-invite ...   Berty group invite
+  -berty-node-addr ...      Berty node address
+  -debug false              debug mode
+  -discord-announces false  Announce debugging events on Discord
+  -discord-webhook-url ...  Discord Webhook URL
 ```
 
 ## Install
