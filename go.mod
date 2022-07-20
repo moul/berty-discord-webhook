@@ -3,7 +3,7 @@ module moul.io/berty-discord-webhook
 go 1.13
 
 require (
-	berty.tech/berty/v2 v2.420.4
+	berty.tech/berty/v2 v2.422.1
 	github.com/gtuk/discordwebhook v1.0.1-0.20220609025812-cb8946075ce5
 	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/oklog/run v1.1.0
