@@ -3,14 +3,14 @@ module moul.io/berty-discord-webhook
 go 1.13
 
 require (
-	berty.tech/berty/v2 v2.426.0
+	berty.tech/berty/v2 v2.436.1
 	github.com/gtuk/discordwebhook v1.0.1-0.20220609025812-cb8946075ce5
 	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/oklog/run v1.1.0
 	github.com/peterbourgon/ff/v3 v3.1.2
 	github.com/tailscale/depaware v0.0.0-20210622194025-720c4b409502
 	go.uber.org/goleak v1.1.12
-	go.uber.org/zap v1.21.0
+	go.uber.org/zap v1.23.0
 	google.golang.org/grpc v1.42.0
 	moul.io/climan v1.0.0
 	moul.io/motd v1.0.0
