@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	berty.tech/berty/v2 v2.426.0
-	github.com/gtuk/discordwebhook v1.0.1-0.20220609025812-cb8946075ce5
+	github.com/gtuk/discordwebhook v1.1.0
 	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/oklog/run v1.1.0
 	github.com/peterbourgon/ff/v3 v3.1.2
